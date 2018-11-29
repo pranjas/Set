@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4614188621AE7FBA009CED1C /* SetGameViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614188521AE7FBA009CED1C /* SetGameViewConstants.swift */; };
 		4619F53121A93B45001F799A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F53021A93B45001F799A /* AppDelegate.swift */; };
 		4619F53321A93B45001F799A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F53221A93B45001F799A /* ViewController.swift */; };
 		4619F53621A93B45001F799A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4619F53421A93B45001F799A /* Main.storyboard */; };
 		4619F53821A93B47001F799A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4619F53721A93B47001F799A /* Assets.xcassets */; };
 		4619F53B21A93B47001F799A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4619F53921A93B47001F799A /* LaunchScreen.storyboard */; };
+		4619F54321A93BEC001F799A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F54221A93BEC001F799A /* Card.swift */; };
+		4619F54521A944C3001F799A /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F54421A944C3001F799A /* SetGame.swift */; };
+		4619F54721A94726001F799A /* SetGameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F54621A94726001F799A /* SetGameConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4614188521AE7FBA009CED1C /* SetGameViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGameViewConstants.swift; path = View/SetGameViewConstants.swift; sourceTree = "<group>"; };
 		4619F52D21A93B45001F799A /* SetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4619F53021A93B45001F799A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4619F53221A93B45001F799A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		4619F53721A93B47001F799A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4619F53A21A93B47001F799A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4619F53C21A93B47001F799A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4619F54221A93BEC001F799A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Model/Card.swift; sourceTree = "<group>"; };
+		4619F54421A944C3001F799A /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGame.swift; path = Model/SetGame.swift; sourceTree = "<group>"; };
+		4619F54621A94726001F799A /* SetGameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGameConstants.swift; path = Model/SetGameConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				4619F53721A93B47001F799A /* Assets.xcassets */,
 				4619F53921A93B47001F799A /* LaunchScreen.storyboard */,
 				4619F53C21A93B47001F799A /* Info.plist */,
+				4619F54221A93BEC001F799A /* Card.swift */,
+				4619F54421A944C3001F799A /* SetGame.swift */,
+				4619F54621A94726001F799A /* SetGameConstants.swift */,
+				4614188521AE7FBA009CED1C /* SetGameViewConstants.swift */,
 			);
 			path = SetGame;
 			sourceTree = "<group>";
@@ -136,6 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4619F53321A93B45001F799A /* ViewController.swift in Sources */,
+				4614188621AE7FBA009CED1C /* SetGameViewConstants.swift in Sources */,
+				4619F54321A93BEC001F799A /* Card.swift in Sources */,
+				4619F54521A944C3001F799A /* SetGame.swift in Sources */,
+				4619F54721A94726001F799A /* SetGameConstants.swift in Sources */,
 				4619F53121A93B45001F799A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
