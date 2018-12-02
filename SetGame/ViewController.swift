@@ -119,7 +119,6 @@ class ViewController: UIViewController {
     private func addCardsToGameView() {
         let cards = game.dealCards()
         let arr = [cards.card1, cards.card2, cards.card3]
-        print ("[PKS] = \(arr)")
         var whichCard =  0
         for key in cardIndextoGameIndex.keys {
             if whichCard ==  3 {
