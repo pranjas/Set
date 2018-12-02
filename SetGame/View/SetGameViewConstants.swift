@@ -17,7 +17,7 @@ class SetGameVeiwConstants {
     static let CARD_COLOR = UIColor.orange
     static let CARD_STROKEWIDTH = 10
     
-    static let CARD_CORNER_RADIUS = 8.0
+    static let CARD_CORNER_RADIUS : CGFloat = 8.0
     
     static let cardColor: [Card.Color: UIColor] =
         [.BLUE : .blue , .RED: .red, .GREEN : .green]
@@ -33,4 +33,6 @@ class SetGameVeiwConstants {
             return SetGameVeiwConstants.SYMBOL_SQUARE
         }
     }
+    
+    public static let NO_MAPPING = ViewButtonToGameCard(viewButton: nil, gameCardIndex: nil, viewButtonIndex: nil)
 }

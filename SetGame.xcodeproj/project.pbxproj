@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4605A1E521B3E16C00FAC92C /* ViewButtonToGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605A1E421B3E16C00FAC92C /* ViewButtonToGameCard.swift */; };
 		4614188621AE7FBA009CED1C /* SetGameViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614188521AE7FBA009CED1C /* SetGameViewConstants.swift */; };
 		4619F53121A93B45001F799A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F53021A93B45001F799A /* AppDelegate.swift */; };
 		4619F53321A93B45001F799A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619F53221A93B45001F799A /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4605A1E421B3E16C00FAC92C /* ViewButtonToGameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewButtonToGameCard.swift; path = SetGame/View/ViewButtonToGameCard.swift; sourceTree = "<group>"; };
 		4614188521AE7FBA009CED1C /* SetGameViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetGameViewConstants.swift; path = View/SetGameViewConstants.swift; sourceTree = "<group>"; };
 		4619F52D21A93B45001F799A /* SetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4619F53021A93B45001F799A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		4619F52421A93B45001F799A = {
 			isa = PBXGroup;
 			children = (
+				4605A1E421B3E16C00FAC92C /* ViewButtonToGameCard.swift */,
 				4619F52F21A93B45001F799A /* SetGame */,
 				4619F52E21A93B45001F799A /* Products */,
 			);
@@ -152,6 +155,7 @@
 				4619F54321A93BEC001F799A /* Card.swift in Sources */,
 				4619F54521A944C3001F799A /* SetGame.swift in Sources */,
 				4619F54721A94726001F799A /* SetGameConstants.swift in Sources */,
+				4605A1E521B3E16C00FAC92C /* ViewButtonToGameCard.swift in Sources */,
 				4619F53121A93B45001F799A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
